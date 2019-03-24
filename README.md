@@ -1,5 +1,6 @@
 # FAT32
-Simple utility that let's the user to do basic operations on a FAT32 disc copy in .dd format
+Simple utility that let's the user to do basic operations on a FAT32 disc copy in .dd format. List of recognizable operations: ls, cd, cp, mkdir, rm, rmdir, rmdir-r, touch.
+
 Features yet to be added:
   - support for creating long file names ( right now to ensure compability with windows I'm using 8.3 filename(SFN) - limited only to 8     characters + 3 characters for extension)
   - making the code more readable by diving it into separate files, and also some things  inside seems redundant
